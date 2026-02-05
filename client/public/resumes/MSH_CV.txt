@@ -1,0 +1,83 @@
+﻿Md Sharique Hussain 
+Linkedin: linkedin.com/in/shariquehussain02                                                           Email: shariquehussain03@gmail.com 
+GitHub:   github.com/sharique0002                                                                                           Mobile: + 91-9279188328 
+
+SKILLS 
+• Languages: C, C++, Java, Python, PHP, JavaScript, HTML, CSS 
+• Frameworks: Bootstrap, Tailwind, ReactJS, Node.js 
+• Databases:               MySQL, MongoDB 
+• Tools/Platforms: Git, GitHub, VS Code 
+• Soft Skills: Problem Solving, Team Work, Time Management, Adaptability 
+PROJECTS 
+
+      Credit Score Advisor - Financial Scoring System | Github                                                                             Mar’ 25 
+ Developed a full-stack credit scoring platform evaluating 5+ financial factors (income, debt, payment history, credit 
+
+age, utilization) using a weighted algorithm, enabling real-time classification of users into 4 credit tiers 
+(Excellent/Good/Fair/Poor) with consistent scoring accuracy. 
+
+ Implemented secure backend services using FastAPI and SQLite, managing 1,000+ credit records, supporting REST 
+APIs with ~90% frontend–backend interaction efficiency, and ensuring reliable data persistence and retrieval. 
+
+ Engineered a responsive frontend with React (Vite) and Tailwind CSS, reducing form input friction by 30%, achieving 
+sub-2s response time for score computation, and delivering clear, categorized credit insights through an intuitive UI. 
+
+        Tech: FastAPI, SQLite, React (Vite), Tailwind CSS, Axios                            
+ 
+   LearniX  - AI-Powered Learning Platform | Github                                                                                             Dec’ 24  
+   Architected an AI-driven learning platform delivering personalized education for 500+ learners through 
+
+recommendation engines, adaptive assessments, and performance analytics, improving content relevance and 
+learning progression. 
+
+  Implemented PHP (MVC) backend modules powering admin dashboards, enabling structured management of 1,000+ 
+users, classes, exams, and content workflows with role-based control. 
+
+  Optimized the student-facing UI/UX by revamped dashboards, integrated database-driven question banks (2,000+ 
+questions), and automated real-time result calculation and progress tracking, reducing manual evaluation effort by 
+40%. 
+Tech: HTML5, CSS3 (Bootstrap + Custom), PHP 8 (MVC), MySQL 
+
+ 
+ SUMMER TRAINING 
+
+Data Structures & Algorithms (Java) | Link:                                                                                                                     Jul’ 25 
+
+ Gained real-world readiness by practicing time–space complexity analysis, writing optimized solutions, and 
+applying scalable algorithmic thinking to practical challenges. 
+
+ Strengthened problem-solving and analytical skills through structured coding exercises, debugging tasks, and 
+performance-driven Java implementations. 
+
+ Completed an intensive 70-hour DSA program focused on core data structures, algorithmic techniques, and 
+optimized Java-based problem solving. 
+
+  CERTIFICATES 
+• Cloud Computing (Elite) IIT Kharagpur - NPTEL | Link                                                                                        Oct’ 25                    
+• Master Generative Al & Generative Al tools (ChatGPT & more) | Link                                                                Aug’ 25 
+• The Bits and Bytes of Computer Networking(Google) | Link                                                                                Sep’ 24 
+• Responsive Web Design FreeCodeCamp | Link                                                                                                   Oct’ 23 
+
+  ACHIEVEMENTS 
+ Patent – Approved for a novel method titled “A Method for Autonomous Railway Track Fault Detection and 
+
+Clearance Monitoring” (Request ID: 85518).                                                                                                   Jul’ 25                    
+
+ Secured 5 Star Badge On Hacker Rank                                                                                                          Sep’ 24 
+                                   
+
+EDUCATION 
+Lovely Professional University   Punjab, India 
+
+• 
+Bachelor of Technology - Computer Science and Engineering; CGPA: 7.02                        Aug 2023 - Present 
+
+Mount Egmont High School   Hazaribagh, Jharkhand 
+• 
+
+Intermediate; Percentage: 72%                                                                                               Apr 21 - Mar 22 
+
+St Augustine Senior Secondary High School                                                                        Hazaribagh, Jharkhand 
+• 
+
+Matriculation; Percentage: 70%                                                                                               Apr 19 - Mar 20

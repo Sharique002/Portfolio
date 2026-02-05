@@ -1,0 +1,108 @@
+.experience {
+    background: #16213e;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--purple-primary), var(--purple-secondary));
+    border-radius: 2px;
+}
+
+.timeline-item {
+    display: flex;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.timeline-item:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.timeline-content {
+    flex: 1;
+    padding: 2rem;
+    background: rgba(157, 78, 221, 0.1);
+    border-radius: 20px;
+    border: 2px solid rgba(157, 78, 221, 0.3);
+    margin: 0 3rem;
+    transition: all 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: scale(1.05);
+    background: rgba(157, 78, 221, 0.15);
+    border-color: var(--purple-primary);
+    box-shadow: 0 15px 40px rgba(157, 78, 221, 0.4);
+}
+
+.timeline-marker {
+    width: 24px;
+    height: 24px;
+    background: linear-gradient(135deg, var(--purple-primary), var(--purple-secondary));
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35px;
+    border: 5px solid #16213e;
+    box-shadow: 0 0 20px rgba(157, 78, 221, 0.5);
+    z-index: 1;
+}
+
+.timeline-date {
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    background: linear-gradient(135deg, var(--purple-primary), var(--purple-secondary));
+    color: var(--text-light);
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.timeline-content h3 {
+    color: var(--purple-light);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.timeline-content h4 {
+    color: var(--text-light);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.timeline-content p {
+    color: var(--text-muted);
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .timeline::before {
+        left: 20px;
+    }
+
+    .timeline-item {
+        flex-direction: column !important;
+    }
+
+    .timeline-content {
+        margin: 0 0 0 50px;
+    }
+
+    .timeline-marker {
+        left: 20px;
+    }
+}

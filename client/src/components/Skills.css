@@ -1,0 +1,261 @@
+.skills-tech-stack {
+    background: linear-gradient(135deg, #1a0033 0%, #2d1050 25%, #3d1870 50%, #2d1050 75%, #1a0033 100%);
+    position: relative;
+    overflow: hidden;
+    padding: 6rem 0;
+    min-height: 100vh;
+}
+
+.tech-stack-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        radial-gradient(ellipse at 20% 30%, rgba(157, 78, 221, 0.15) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 70%, rgba(199, 125, 255, 0.1) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 50%, rgba(157, 78, 221, 0.05) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.tech-stack-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.tech-stack-header h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: #e0d5f0;
+    text-shadow: 0 0 30px rgba(157, 78, 221, 0.5);
+    margin: 0;
+}
+
+.tech-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Pyramid rows with different widths */
+.tech-grid .tech-row {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+/* First row - 3 cards */
+.tech-grid .tech-row:nth-child(1) {
+    max-width: 400px;
+}
+
+/* Second row - 5 cards */
+.tech-grid .tech-row:nth-child(2) {
+    max-width: 700px;
+}
+
+/* Third row - 7 cards */
+.tech-grid .tech-row:nth-child(3) {
+    max-width: 1000px;
+}
+
+/* Fourth row - 9 cards */
+.tech-grid .tech-row:nth-child(4) {
+    max-width: 1300px;
+}
+
+/* Fifth row and beyond - full width */
+.tech-grid .tech-row:nth-child(n+5) {
+    max-width: 1400px;
+}
+
+.tech-card {
+    aspect-ratio: 1;
+    background: rgba(157, 78, 221, 0.15);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(199, 125, 255, 0.3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    padding: 1.5rem 1rem;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+    opacity: 0;
+    animation: techCardFadeIn 0.6s ease-out forwards;
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.tech-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    background: rgba(157, 78, 221, 0.25);
+    border-color: rgba(199, 125, 255, 0.6);
+    box-shadow:
+        0 15px 50px rgba(157, 78, 221, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.tech-icon {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 2px 10px rgba(157, 78, 221, 0.5);
+    filter: drop-shadow(0 0 10px rgba(199, 125, 255, 0.3));
+}
+
+.tech-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #e0d5f0;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+@keyframes techCardFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .tech-grid .tech-row:nth-child(1) {
+        max-width: 380px;
+    }
+
+    .tech-grid .tech-row:nth-child(2) {
+        max-width: 650px;
+    }
+
+    .tech-grid .tech-row:nth-child(3) {
+        max-width: 920px;
+    }
+
+    .tech-grid .tech-row:nth-child(4) {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-tech-stack {
+        padding: 4rem 0;
+    }
+
+    .tech-stack-header h2 {
+        font-size: 2.5rem;
+        letter-spacing: 0.15em;
+    }
+
+    .tech-grid {
+        padding: 0 1rem;
+        gap: 1rem;
+    }
+
+    .tech-grid .tech-row {
+        gap: 1rem;
+    }
+
+    /* Adjust pyramid widths for tablets */
+    .tech-grid .tech-row:nth-child(1) {
+        max-width: 320px;
+    }
+
+    .tech-grid .tech-row:nth-child(2) {
+        max-width: 550px;
+    }
+
+    .tech-grid .tech-row:nth-child(3) {
+        max-width: 100%;
+    }
+
+    .tech-grid .tech-row:nth-child(4),
+    .tech-grid .tech-row:nth-child(n+5) {
+        max-width: 100%;
+    }
+
+    .tech-card {
+        padding: 1rem 0.8rem;
+        gap: 0.6rem;
+        min-width: 90px;
+    }
+
+    .tech-icon {
+        font-size: 2rem;
+    }
+
+    .tech-name {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .tech-stack-header h2 {
+        font-size: 2rem;
+        letter-spacing: 0.1em;
+    }
+
+    .tech-grid {
+        gap: 0.8rem;
+    }
+
+    .tech-grid .tech-row {
+        gap: 0.8rem;
+    }
+
+    /* Flatten pyramid on mobile */
+    .tech-grid .tech-row {
+        max-width: 100% !important;
+    }
+
+    .tech-card {
+        padding: 0.8rem 0.5rem;
+        border-radius: 15px;
+        min-width: 80px;
+    }
+
+    .tech-icon {
+        font-size: 1.8rem;
+    }
+
+    .tech-name {
+        font-size: 0.7rem;
+    }
+}
+
+/* Optional: Add floating animation to some cards */
+.tech-card:nth-child(3n) {
+    animation: techCardFadeIn 0.6s ease-out forwards, floatSlow 6s ease-in-out infinite;
+}
+
+.tech-card:nth-child(5n) {
+    animation: techCardFadeIn 0.6s ease-out forwards, floatSlow 8s ease-in-out infinite;
+}
+
+@keyframes floatSlow {
+
+    0%,
+    100% {
+        transform: translateY(0) scale(1);
+    }
+
+    50% {
+        transform: translateY(-5px) scale(1);
+    }
+}

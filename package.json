@@ -1,0 +1,27 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "Portfolio Website - A modern portfolio built with React and Vite",
+    "author": "Sharique Hussain <shariquehussain03@gmail.com>",
+    "license": "ISC",
+    "keywords": [
+        "portfolio",
+        "react",
+        "vite",
+        "frontend"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sharique0002/portfolio"
+    },
+    "scripts": {
+        "dev": "cd client && npm run dev",
+        "build": "cd client && npm run build",
+        "preview": "cd client && npm run preview",
+        "install": "cd client && npm install"
+    },
+    "engines": {
+        "node": ">=18.0.0",
+        "npm": ">=9.0.0"
+    }
+}
