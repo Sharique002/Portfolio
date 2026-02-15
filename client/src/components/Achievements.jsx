@@ -11,22 +11,7 @@ const Achievements = () => {
 
     useEffect(() => {
         const staticAchievements = [
-            {
-                title: "Code-A-Hunt",
-                description: "Finalist in Code-A-Hunt 2024",
-                icon: "🏆",
-                certificate: "/certificates/Hackathon.pdf",
-                date: "March 2024",
-                teamSize: "4 Members",
-                achievement: "Finalist",
-                problem: "To create an educational platform for students to learn and practice coding",
-                technologies: ["MongoDB", "Express", "React", "Node.js"],
-                highlights: [
-                    "Built real-time collaborative features",
-                    "Implemented AI-powered code suggestions",
-                    "Optimized for low-latency performance"
-                ]
-            },
+            // Add your achievements here
         ]
         setAchievements(staticAchievements)
 
@@ -125,10 +110,6 @@ const Achievements = () => {
     return (
         <section id="achievements" className="achievements">
             <div className="container">
-                <div className={`section-header ${isVisible ? 'fade-in' : ''}`}>
-                    <h2>Hackathons</h2>
-                </div>
-
                 {/* First UI Section - Hackathon Cards with Detailed Info */}
                 <div className="achievements-grid">
                     {achievements.map((achievement, index) => (

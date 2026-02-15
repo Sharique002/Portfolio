@@ -9,7 +9,7 @@ const Navbar = () => {
         const handleScroll = () => {
             setScrolled(window.scrollY > 50)
 
-            const sections = ['home', 'about', 'skills', 'projects', 'certifications', 'contact']
+            const sections = ['home', 'about', 'skills', 'projects', 'hackathons', 'certifications', 'patents', 'contact']
             const current = sections.find(section => {
                 const element = document.getElementById(section)
                 if (element) {
@@ -65,11 +65,25 @@ const Navbar = () => {
                             Projects
                         </a>
                         <a
+                            href="#hackathons"
+                            className={`nav-link ${activeSection === 'hackathons' ? 'active' : ''}`}
+                            onClick={(e) => handleClick(e, 'hackathons')}
+                        >
+                            Hackathons
+                        </a>
+                        <a
                             href="#certifications"
                             className={`nav-link ${activeSection === 'certifications' ? 'active' : ''}`}
                             onClick={(e) => handleClick(e, 'certifications')}
                         >
                             Certifications
+                        </a>
+                        <a
+                            href="#patents"
+                            className={`nav-link ${activeSection === 'patents' ? 'active' : ''}`}
+                            onClick={(e) => handleClick(e, 'patents')}
+                        >
+                            Patents
                         </a>
                         <a
                             href="#contact"
