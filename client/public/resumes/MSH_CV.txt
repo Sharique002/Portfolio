@@ -1,83 +1,43 @@
-﻿Md Sharique Hussain 
-Linkedin: linkedin.com/in/shariquehussain02                                                           Email: shariquehussain03@gmail.com 
-GitHub:   github.com/sharique0002                                                                                           Mobile: + 91-9279188328 
+﻿Md Sharique Hussain
+LinkedIn: https://www.linkedin.com/in/shariquehussain02/                                              Email: shariquehussain03@gmail.com GitHub: https://github.com/Sharique002		Mobile:	+91-9279188328
+ Portfolio: shariqueportfolio.vercel.app
 
-SKILLS 
-• Languages: C, C++, Java, Python, PHP, JavaScript, HTML, CSS 
-• Frameworks: Bootstrap, Tailwind, ReactJS, Node.js 
-• Databases:               MySQL, MongoDB 
-• Tools/Platforms: Git, GitHub, VS Code 
-• Soft Skills: Problem Solving, Team Work, Time Management, Adaptability 
-PROJECTS 
+SKILLS
+•	Programming Languages: C++, C, Python
+•	Full-Stack Engineering: Backend (Node.js, FastAPI, REST APIs) + Frontend (React.js, JavaScript ES6+, HTML5/CSS3, Tailwind CSS) 
+•	Databases: MySQL, MongoDB 
+•	Core Fundamentals: Data Structures & Algorithms, Object-Oriented Programming, DBMS, Operating Systems 
+•	Systems & Tools: Linux (CLI), Git, Docker
+•	Engineering Focus: Scalable System Design, API Architecture, Performance Optimization
+•	Professional Skills: Problem Solving, Analytical Thinking, Collaboration, Communication, Agile Practices
+PROJECTS
+•	reBorn_i — Hiring Probability Intelligence Platform | 🔗                                                  Jan’ 2025 – Apr’ 2025
+•	Designed a hiring pipeline simulation engine modeling ATS, recruiter, and market stages, computing interview probability using deterministic risk scoring.
+•	Built a full-stack system enabling resume parsing, job matching, and stage-wise rejection analysis, providing actionable insights for optimization.
+•	Implemented survival-based probability models and skill ROI simulation, identifying bottlenecks and improving decision-making for job seekers.
+•	Optimized performance by replacing heavy ML pipelines with embedding-based similarity + fallback mechanisms, improving efficiency and system reliability.
+Tech: Next.js, TypeScript, FastAPI, PostgreSQL, Embeddings
+•	CARE (Customer Autonomous Resolution Engine) AI Agent | 🔗                                    Mar’ 2025 – June’ 2025
+•	Engineered an agentic AI system performing end-to-end support ticket resolution using multi-step reasoning and tool orchestration
+•	Implemented asynchronous execution pipeline enabling concurrent ticket processing, significantly reducing response latency
+•	Designed robust failure-handling mechanisms (retry, fallback, escalation) ensuring reliability under uncertain conditions
+•	Achieved 100% autonomous resolution across test scenarios (20/20 tickets), demonstrating potential for large-scale support automation
+Tech: Python, Async Processing, LLM Integration, LangChain / Custom Agent Loop
+CERTIFICATES
+•	Certificate in Cloud Computing by IIT Kharagpur | 🔗	 Jul’ 2025
+•	Certificate in Build Generative AI Apps and Solutions by Infosys | 🔗	Aug’ 2025
+•	Certificate in Master Generative AI & AI Tools by Infosys | 🔗	 Aug’ 2025
+•	Certificate in The Bits and Bytes of Computer Networking by Google  | 🔗	Sep’ 2024
+•	Certificate in Data Structures & Algorithms (DSA) | 🔗	Dec’ 2024
+EXTRACURRICULAR ACTIVITIES
+•	WEB-A-THON 2.0 | Top 5 Finalist 	   feb’ 2026 Led a 4-member team in a 24-hour university-level hackathon to develop a web-based learning platform using React.js, FastAPI, and REST APIs. Recognized for rapid prototyping, system design, and collaborative execution.
+•	CODE-A-HUNT | Team Leader 	  Mar’ 2024
+Led a 4-member team in building a full-stack coding education platform using the MERN stack with real-time collaboration features and interactive UI design.
+EDUCATION
 
-      Credit Score Advisor - Financial Scoring System | Github                                                                             Mar’ 25 
- Developed a full-stack credit scoring platform evaluating 5+ financial factors (income, debt, payment history, credit 
-
-age, utilization) using a weighted algorithm, enabling real-time classification of users into 4 credit tiers 
-(Excellent/Good/Fair/Poor) with consistent scoring accuracy. 
-
- Implemented secure backend services using FastAPI and SQLite, managing 1,000+ credit records, supporting REST 
-APIs with ~90% frontend–backend interaction efficiency, and ensuring reliable data persistence and retrieval. 
-
- Engineered a responsive frontend with React (Vite) and Tailwind CSS, reducing form input friction by 30%, achieving 
-sub-2s response time for score computation, and delivering clear, categorized credit insights through an intuitive UI. 
-
-        Tech: FastAPI, SQLite, React (Vite), Tailwind CSS, Axios                            
- 
-   LearniX  - AI-Powered Learning Platform | Github                                                                                             Dec’ 24  
-   Architected an AI-driven learning platform delivering personalized education for 500+ learners through 
-
-recommendation engines, adaptive assessments, and performance analytics, improving content relevance and 
-learning progression. 
-
-  Implemented PHP (MVC) backend modules powering admin dashboards, enabling structured management of 1,000+ 
-users, classes, exams, and content workflows with role-based control. 
-
-  Optimized the student-facing UI/UX by revamped dashboards, integrated database-driven question banks (2,000+ 
-questions), and automated real-time result calculation and progress tracking, reducing manual evaluation effort by 
-40%. 
-Tech: HTML5, CSS3 (Bootstrap + Custom), PHP 8 (MVC), MySQL 
-
- 
- SUMMER TRAINING 
-
-Data Structures & Algorithms (Java) | Link:                                                                                                                     Jul’ 25 
-
- Gained real-world readiness by practicing time–space complexity analysis, writing optimized solutions, and 
-applying scalable algorithmic thinking to practical challenges. 
-
- Strengthened problem-solving and analytical skills through structured coding exercises, debugging tasks, and 
-performance-driven Java implementations. 
-
- Completed an intensive 70-hour DSA program focused on core data structures, algorithmic techniques, and 
-optimized Java-based problem solving. 
-
-  CERTIFICATES 
-• Cloud Computing (Elite) IIT Kharagpur - NPTEL | Link                                                                                        Oct’ 25                    
-• Master Generative Al & Generative Al tools (ChatGPT & more) | Link                                                                Aug’ 25 
-• The Bits and Bytes of Computer Networking(Google) | Link                                                                                Sep’ 24 
-• Responsive Web Design FreeCodeCamp | Link                                                                                                   Oct’ 23 
-
-  ACHIEVEMENTS 
- Patent – Approved for a novel method titled “A Method for Autonomous Railway Track Fault Detection and 
-
-Clearance Monitoring” (Request ID: 85518).                                                                                                   Jul’ 25                    
-
- Secured 5 Star Badge On Hacker Rank                                                                                                          Sep’ 24 
-                                   
-
-EDUCATION 
-Lovely Professional University   Punjab, India 
-
-• 
-Bachelor of Technology - Computer Science and Engineering; CGPA: 7.02                        Aug 2023 - Present 
-
-Mount Egmont High School   Hazaribagh, Jharkhand 
-• 
-
-Intermediate; Percentage: 72%                                                                                               Apr 21 - Mar 22 
-
-St Augustine Senior Secondary High School                                                                        Hazaribagh, Jharkhand 
-• 
-
-Matriculation; Percentage: 70%                                                                                               Apr 19 - Mar 20
+•	Lovely Professional University	  Punjab, India
+ Bachelor of Technology - Computer Science and Engineering	  Since Aug’ 2023
+•	Mount Egmont High School	       Hazaribagh, India
+ Intermediate	   Apr’ 2022 – Mar’ 2023
+•	St. Augustine High School	       Hazaribagh, India
+ Matriculation	   Apr’ 2020 – Mar’ 2021
