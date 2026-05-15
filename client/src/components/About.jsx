@@ -55,15 +55,15 @@ const About = () => {
                         {/* Quick Stats */}
                         <div className="quick-stats">
                             <div className="stat-item">
-                                <div className="stat-number">3+</div>
+                                <div className="stat-number">5+</div>
                                 <div className="stat-label">Projects</div>
                             </div>
                             <div className="stat-item">
-                                <div className="stat-number">15+</div>
+                                <div className="stat-number">20+</div>
                                 <div className="stat-label">Technologies</div>
                             </div>
                             <div className="stat-item">
-                                <div className="stat-number">5+</div>
+                                <div className="stat-number">30+</div>
                                 <div className="stat-label">Certifications</div>
                             </div>
                         </div>
