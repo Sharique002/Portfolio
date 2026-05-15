@@ -89,7 +89,7 @@ const Achievements = () => {
         setCurrentCertificate('')
     }
 
-    const handleDownload = (format) => {
+    const handleDownload = async (format) => {
         const fileMap = {
             'PDF': '/resumes/MSH.pdf',
             'DOC': '/resumes/MSH.docx',
@@ -98,12 +98,21 @@ const Achievements = () => {
 
         const filePath = fileMap[format]
         if (filePath) {
-            const link = document.createElement('a')
-            link.href = filePath
-            link.download = filePath.split('/').pop()
-            document.body.appendChild(link)
-            link.click()
-            document.body.removeChild(link)
+            try {
+                const response = await fetch(filePath)
+                const blob = await response.blob()
+                const blobUrl = window.URL.createObjectURL(blob)
+                const link = document.createElement('a')
+                link.href = blobUrl
+                link.download = filePath.split('/').pop()
+                document.body.appendChild(link)
+                link.click()
+                document.body.removeChild(link)
+                window.URL.revokeObjectURL(blobUrl)
+            } catch (error) {
+                // Fallback: open in new tab if blob download fails
+                window.open(filePath, '_blank')
+            }
         }
     }
 
