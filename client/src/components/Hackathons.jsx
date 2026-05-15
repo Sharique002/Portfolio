@@ -16,8 +16,22 @@ const Hackathons = () => {
                 "Designed intuitive user interface"
             ],
             certificateLink: "/certificates/Hackathon.pdf"
+        },
+        {
+            title: "WEB-A-THON 2.0",
+            badge: "TOP 5 — University Level",
+            badgeColor: "#F7B731",
+            date: "February 2026",
+            team: "Team Name: LearnZ | Team Leader: Sharique Hussain | 4 Members",
+            problem: "To build a web-based solution focused on improving learning efficiency and user experience within a 24-hour deadline",
+            technologies: ["React.js", "Tailwind CSS", "Node.js", "FastAPI", "REST APIs"],
+            highlights: [
+                "Ranked among Top 5 teams in university-level competition",
+                "Demonstrated rapid prototyping and cross-functional collaboration",
+                "Recognized for outstanding design, development, and strategic thinking"
+            ],
+            certificateLink: "/certificates/Hackathon_02.pdf"
         }
-        // Add more hackathons here
     ]
 
     return (
