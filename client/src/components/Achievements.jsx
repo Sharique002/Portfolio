@@ -91,8 +91,8 @@ const Achievements = () => {
 
     const handleDownload = (format) => {
         const fileMap = {
-            'PDF': '/resumes/MSH_CV.pdf',
-            'DOC': '/resumes/MSH_CV.docx',
+            'PDF': '/resumes/MSH.pdf',
+            'DOC': '/resumes/MSH.docx',
             'TXT': '/resumes/MSH_CV.txt'
         }
 
@@ -191,7 +191,7 @@ const Achievements = () => {
                                 <div className="product-info-left">
                                     <h2 className="product-title">My Resume</h2>
                                     <p className="product-subtitle">Complete Portfolio Document</p>
-                                    <p className="product-detail">Updated February 2026</p>
+                                    <p className="product-detail">Updated May 2026</p>
 
                                     <p className="product-description">
                                         Download my comprehensive resume featuring my complete work experience,
@@ -306,7 +306,7 @@ const Achievements = () => {
                             ✕
                         </button>
                         <iframe
-                            src="/resumes/MSH_CV.pdf"
+                            src="/resumes/MSH.pdf"
                             style={{
                                 width: '100%',
                                 height: '100%',
