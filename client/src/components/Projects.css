@@ -112,6 +112,7 @@
 .module-rag    { --module-color: #0891B2; --module-bg: #ECFEFF; --module-accent: #155E75; --module-glow: rgba(8,145,178,0.12); }
 .module-learnix{ --module-color: #059669; --module-bg: #ECFDF5; --module-accent: #065F46; --module-glow: rgba(5,150,105,0.12); }
 .module-legacy { --module-color: #D97706; --module-bg: #FFFBEB; --module-accent: #92400E; --module-glow: rgba(217,119,6,0.12); }
+.module-pulsewat { --module-color: #E11D48; --module-bg: #FFF1F2; --module-accent: #9F1239; --module-glow: rgba(225,29,72,0.12); }
 
 /* ── Project Card ────────────────────────────────────── */
 .project-case-study {
@@ -133,6 +134,7 @@
 .project-case-study:nth-child(3) { animation-delay: 0.3s; }
 .project-case-study:nth-child(4) { animation-delay: 0.4s; }
 .project-case-study:nth-child(5) { animation-delay: 0.5s; }
+.project-case-study:nth-child(6) { animation-delay: 0.6s; }
 
 @keyframes cardSlideIn {
     to { opacity: 1; transform: translateY(0); }

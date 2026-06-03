@@ -134,6 +134,32 @@ const Projects = () => {
             icon: "🌐",
             github: "https://github.com/sharique0002",
             demo: "#"
+        },
+        {
+            id: 6,
+            category: "DevOps / Observability",
+            title: "PulseWat",
+            subtitle: "INFRASTRUCTURE MONITORING PLATFORM",
+            year: "2025",
+            status: "",
+            statusColor: "",
+            tagline: "Real-Time Observability for Every Layer of Your Stack",
+            description: "A production-style, real-time infrastructure monitoring and observability platform built on containerized architecture. Collects, stores, and visualizes host and container metrics through pre-configured dashboards with automated alerting thresholds.",
+            keyFeatures: [
+                "Real-Time Host & Container Monitoring",
+                "Pre-Provisioned Grafana Dashboards (3 Environments)",
+                "Prometheus Alerting with 11 Threshold Rules",
+                "Containerized Microservice Architecture (5 Services)",
+                "Docker Bridge Network with Internal DNS"
+            ],
+            pipeline: ["Collectors", "Prometheus TSDB", "Alert Rules", "Grafana", "Dashboards"],
+            techStack: ["Docker", "Prometheus", "Grafana", "Node Exporter", "cAdvisor", "Nginx", "PromQL"],
+            role: "Solo Developer — DevOps & Infrastructure",
+            impact: "Full observability pipeline  •  11 alert rules  •  3 monitoring dashboards",
+            moduleColor: "module-pulsewat",
+            icon: "🫀",
+            github: "https://github.com/sharique0002",
+            demo: "#"
         }
     ]
 
@@ -169,7 +195,7 @@ const Projects = () => {
                 {/* Project Stats Bar */}
                 <div className="projects-stats-bar">
                     <div className="stat-pill">
-                        <span className="stat-num">5</span>
+                        <span className="stat-num">6</span>
                         <span className="stat-txt">Projects</span>
                     </div>
                     <div className="stat-pill">
@@ -181,7 +207,7 @@ const Projects = () => {
                         <span className="stat-txt">Live</span>
                     </div>
                     <div className="stat-pill">
-                        <span className="stat-num">15+</span>
+                        <span className="stat-num">25+</span>
                         <span className="stat-txt">Technologies</span>
                     </div>
                 </div>
