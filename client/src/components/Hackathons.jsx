@@ -3,19 +3,21 @@ import './Hackathons.css'
 const Hackathons = () => {
     const hackathons = [
         {
-            title: "CODE-A-HUNT",
-            badge: "FINALIST",
-            badgeColor: "#26DE81",
-            date: "March 2024",
-            team: "Team Name: Star Group | Team Leader: Sharique Hussain | 4 Members",
-            problem: "To create an educational platform for students to learn and practice coding",
-            technologies: ["MongoDB", "Express", "React", "Node.js"],
+            title: "AGENTIC AI HACKATHON 2026",
+            badge: "SELECTED — Global",
+            badgeColor: "#8B5CF6",
+            date: "April 2026",
+            team: "Solo Participant | Sharique Hussain | Recognized by Ksolves",
+            problem: "Build an Agentic AI solution capable of autonomously handling customer support workflows end-to-end — an intelligent resolution agent that ingests tickets, reasons through multi-step decisions, executes tool calls (order lookups, refunds), recovers from failures, and escalates complex cases. The system needed to demonstrate production-ready engineering: concurrency, resilience, auditability, and structured state management.",
+            technologies: ["Python", "OpenAI GPT", "LangChain", "AsyncIO", "ReAct Architecture", "Tool Calling", "Git"],
             highlights: [
-                "Built full-stack web application",
-                "Implemented real-time collaboration",
-                "Designed intuitive user interface"
+                "Selected among 2,000+ global builders",
+                "Built autonomous multi-step reasoning agent with tool orchestration",
+                "Implemented confidence-based escalation & error recovery",
+                "Concurrent ticket processing with audit logging",
+                "Official recognition from Ksolves for Agentic AI engineering"
             ],
-            certificateLink: "/certificates/Hackathon.pdf"
+            certificateLink: "/certificates/Agentic AI Hackathon 2026.pdf"
         },
         {
             title: "WEB-A-THON 2.0",
@@ -31,6 +33,21 @@ const Hackathons = () => {
                 "Recognized for outstanding design, development, and strategic thinking"
             ],
             certificateLink: "/certificates/Hackathon_02.pdf"
+        },
+        {
+            title: "CODE-A-HUNT",
+            badge: "FINALIST",
+            badgeColor: "#26DE81",
+            date: "March 2024",
+            team: "Team Name: Star Group | Team Leader: Sharique Hussain | 4 Members",
+            problem: "To create an educational platform for students to learn and practice coding",
+            technologies: ["MongoDB", "Express", "React", "Node.js"],
+            highlights: [
+                "Built full-stack web application",
+                "Implemented real-time collaboration",
+                "Designed intuitive user interface"
+            ],
+            certificateLink: "/certificates/Hackathon.pdf"
         }
     ]
 
