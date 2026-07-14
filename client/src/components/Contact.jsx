@@ -53,13 +53,7 @@ const Contact = () => {
                         >
                             <i className="fas fa-envelope"></i>
                         </a>
-                        <a
-                            href="tel:+919279188328"
-                            className="social-icon-cyber"
-                            aria-label="Phone"
-                        >
-                            <i className="fas fa-phone"></i>
-                        </a>
+
                     </div>
                 </div>
 
