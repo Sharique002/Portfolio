@@ -38,7 +38,7 @@ const Contact = () => {
                             <i className="fab fa-linkedin-in"></i>
                         </a>
                         <a
-                            href="https://github.com/sharique0002"
+                            href="https://github.com/Sharique002"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="social-icon-cyber"
