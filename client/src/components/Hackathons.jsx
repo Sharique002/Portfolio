@@ -3,6 +3,22 @@ import './Hackathons.css'
 const Hackathons = () => {
     const hackathons = [
         {
+            title: "FRONTEND BATTLE 3.0",
+            badge: "TOP 15 — IIT Bhubaneswar",
+            badgeColor: "#1E88E5",
+            date: "June 2026",
+            team: "Solo Participant | Sharique Hussain | Recognized by WebnD, IIT Bhubaneswar",
+            problem: "A competitive frontend development hackathon organized by WebnD, the Web and Design Society of IIT Bhubaneswar, challenging participants to showcase creative frontend skills, innovative UI/UX design, and technical excellence in web development over a 3-day sprint.",
+            technologies: ["HTML", "CSS", "JavaScript", "React.js", "UI/UX Design", "Responsive Design"],
+            highlights: [
+                "Achieved Top 15 Creative Performer out of all participants",
+                "Recognized for outstanding creative design and frontend innovation",
+                "3-day intensive hackathon from 26th to 28th June 2026",
+                "Organized by WebnD — Web and Design Society of IIT Bhubaneswar"
+            ],
+            certificateLink: "/certificates/IIT bhubaneswar.pdf"
+        },
+        {
             title: "AGENTIC AI HACKATHON 2026",
             badge: "SELECTED — Global",
             badgeColor: "#8B5CF6",
