@@ -104,7 +104,7 @@ const Hackathons = () => {
             <div className="container">
                 <div className="section-header">
                     <div className="title-emoji">🏆</div>
-                    <h2>Hackathons</h2>
+                    <h2>Hackathons / Achievements</h2>
                     <p>Building innovative solutions under pressure! ⚡</p>
                 </div>
 

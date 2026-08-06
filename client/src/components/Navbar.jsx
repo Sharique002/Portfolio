@@ -69,7 +69,7 @@ const Navbar = () => {
                             className={`nav-link ${activeSection === 'hackathons' ? 'active' : ''}`}
                             onClick={(e) => handleClick(e, 'hackathons')}
                         >
-                            Hackathons
+                            Hackathons/Achievements
                         </a>
                         <a
                             href="#certifications"
