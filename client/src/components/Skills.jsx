@@ -39,7 +39,7 @@ const Skills = () => {
             { name: "OpenCV", icon: "CV" },
             { name: "NumPy", icon: "⊞" }
         ],
-        // Row 5 - AI & Backend Tools
+        // Row 5 - AI & Backend Tools (10 items)
         [
             { name: "LangChain", icon: "🔗" },
             { name: "OpenAI API", icon: "🤖" },
@@ -50,11 +50,11 @@ const Skills = () => {
             { name: "Grafana", icon: "📈" },
             { name: "Nginx", icon: "▶" },
             { name: "Tailwind", icon: "~" },
-            { name: "Bootstrap", icon: "B" },
-            { name: "Firebase", icon: "FB" }
+            { name: "Bootstrap", icon: "B" }
         ],
-        // Row 6 - Developer Tools & Platforms
+        // Row 6 - Developer Tools & Platforms (10 items)
         [
+            { name: "Firebase", icon: "FB" },
             { name: "GitHub", icon: "GH" },
             { name: "Linux", icon: "🐧" },
             { name: "VS Code", icon: "⌨" },
@@ -63,21 +63,24 @@ const Skills = () => {
             { name: "Postman", icon: "📮" },
             { name: "Laravel", icon: "L" },
             { name: "Microsoft Office", icon: "📊" },
-            { name: "Figma", icon: "🎨" },
-            { name: "Photoshop", icon: "Ps" },
-            { name: "Canva", icon: "🖌" }
+            { name: "Figma", icon: "🎨" }
         ],
-        // Row 7 - Graphic Design & Creative Skills
+        // Row 7 - Design Tools & Creative Skills (7 items)
         [
+            { name: "Photoshop", icon: "Ps" },
+            { name: "Canva", icon: "🖌" },
             { name: "UI/UX Design", icon: "🎯" },
             { name: "Social Media Design", icon: "📱" },
             { name: "Brand Identity", icon: "🏷" },
             { name: "Typography", icon: "✒" },
-            { name: "Color Theory", icon: "🎨" },
+            { name: "Color Theory", icon: "🎨" }
+        ],
+        // Row 8 - Graphic Design Skills (7 items)
+        [
             { name: "Visual Hierarchy", icon: "👁" },
             { name: "Carousel Design", icon: "🎠" },
-            { name: "Marketing Creatives", icon: "📣" },
             { name: "Responsive Design", icon: "📐" },
+            { name: "Marketing Creatives", icon: "📣" },
             { name: "Thumbnail Design", icon: "🖼" },
             { name: "Layout & Composition", icon: "📏" },
             { name: "Iconography", icon: "✦" }

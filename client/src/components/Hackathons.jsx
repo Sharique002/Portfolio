@@ -3,6 +3,23 @@ import './Hackathons.css'
 const Hackathons = () => {
     const hackathons = [
         {
+            title: "TECH SYNERGY",
+            badge: "🥈 2ND PLACE — CipherSchools",
+            badgeColor: "#C0C0C0",
+            date: "August 2026",
+            team: "Solo Participant | Sharique Hussain | Recognized by Plutonn (CipherSchools)",
+            problem: "A technical competition organized by Plutonn, an initiative of CipherSchools, challenging participants to demonstrate strong problem-solving, programming, and analytical skills. The event provided an excellent platform to apply technical knowledge in a competitive environment and reinforced commitment to continuous learning and software engineering excellence.",
+            technologies: ["Problem Solving", "Programming", "Analytical Skills", "Software Engineering", "Competitive Programming"],
+            highlights: [
+                "🥈 Secured 2nd Position among all participants",
+                "Organized by Plutonn — an initiative of CipherSchools",
+                "Demonstrated exceptional problem-solving and programming skills",
+                "Recognized among the Top 5 performers",
+                "Strengthened competitive programming and software engineering experience"
+            ],
+            certificateLink: "/certificates/Tech_Synergy_Certificate.png"
+        },
+        {
             title: "FRONTEND BATTLE 3.0",
             badge: "TOP 15 — IIT Bhubaneswar",
             badgeColor: "#1E88E5",

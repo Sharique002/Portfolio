@@ -71,17 +71,17 @@
     max-width: 1300px;
 }
 
-/* Fifth row - 11 cards */
+/* Fifth row - 10 cards */
 .tech-grid .tech-row:nth-child(5) {
     max-width: 1400px;
 }
 
-/* Sixth row - 11 cards */
+/* Sixth row - 10 cards */
 .tech-grid .tech-row:nth-child(6) {
     max-width: 1400px;
 }
 
-/* Seventh row and beyond - full width */
+/* Seventh row and beyond - full base width */
 .tech-grid .tech-row:nth-child(n+7) {
     max-width: 1400px;
 }
