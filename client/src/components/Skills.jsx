@@ -39,21 +39,48 @@ const Skills = () => {
             { name: "OpenCV", icon: "CV" },
             { name: "NumPy", icon: "⊞" }
         ],
-        // Row 5 - Remaining items
+        // Row 5 - AI & Backend Tools
         [
+            { name: "LangChain", icon: "🔗" },
+            { name: "OpenAI API", icon: "🤖" },
+            { name: "FAISS", icon: "🔍" },
+            { name: "Redis", icon: "⚡" },
+            { name: "Socket.io", icon: "🔌" },
+            { name: "Prometheus", icon: "📊" },
+            { name: "Grafana", icon: "📈" },
+            { name: "Nginx", icon: "▶" },
             { name: "Tailwind", icon: "~" },
             { name: "Bootstrap", icon: "B" },
-            { name: "Firebase", icon: "FB" },
+            { name: "Firebase", icon: "FB" }
+        ],
+        // Row 6 - Developer Tools & Platforms
+        [
             { name: "GitHub", icon: "GH" },
             { name: "Linux", icon: "🐧" },
             { name: "VS Code", icon: "⌨" },
             { name: "Vercel", icon: "▲" },
             { name: "Jupyter", icon: "📓" },
-            { name: "Figma", icon: "🎨" },
             { name: "Postman", icon: "📮" },
             { name: "Laravel", icon: "L" },
+            { name: "Microsoft Office", icon: "📊" },
+            { name: "Figma", icon: "🎨" },
             { name: "Photoshop", icon: "Ps" },
-            { name: "Microsoft Office", icon: "📊" }
+            { name: "Canva", icon: "🖌" }
+        ],
+        // Row 7 - Graphic Design & Creative Skills
+        [
+            { name: "UI/UX Design", icon: "🎯" },
+            { name: "Social Media Design", icon: "📱" },
+            { name: "Brand Identity", icon: "🏷" },
+            { name: "Typography", icon: "✒" },
+            { name: "Color Theory", icon: "🎨" },
+            { name: "Visual Hierarchy", icon: "👁" },
+            { name: "Carousel Design", icon: "🎠" },
+            { name: "Marketing Creatives", icon: "📣" },
+            { name: "Responsive Design", icon: "📐" },
+            { name: "Thumbnail Design", icon: "🖼" },
+            { name: "Layout & Composition", icon: "📏" },
+            { name: "Iconography", icon: "✦" }
         ]
     ]
 
